@@ -1,0 +1,16 @@
+.boxA {position: fixed;
+       bottom: 5px;
+       float: left;
+       padding: none;
+       margin: none;
+       background-color: #ffa104;}
+       
+@media(min-width: 768px){
+.boxA {width: 640px;
+       height: 160px;}
+}       
+       
+@media(max-width: 767px){
+.boxA {width: 320px;
+       height: 80px;}              
+}       

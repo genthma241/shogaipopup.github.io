@@ -8,16 +8,22 @@
 .boxB {padding: none;
        margin: none;
        background-color: #12AA33;
-       width: 300px;
-       height: 250px;}       
+		}       
        
 @media(min-width: 768px){
 .boxA {width: 640px;
        height: 160px;}
+       
+.boxB {width: 300px;
+	   height: 250px;}       
 }       
        
 @media(max-width: 767px){
 .boxA {width: 320px;
-       height: 80px;}              
+       height: 80px;}     
+       
+.boxB {width: 300px;
+       height: 250px;
+       }                
 }       
 
